@@ -1,4 +1,4 @@
-# Outline 2: Spreadsheets
+# PyCon Africa 2019 Tutorial Outline
 ## Setup/Prereqs
 -  Python 3.5 or later should work, but 3.6 will give you f-strings
 -  Git & do basic Git config (find chapter)
@@ -42,6 +42,12 @@
 ## 15 minute Break
 
 ## Testing, Documentation, Refactoring
+*  Testing
+    -  Why Testing: the BIG picture
+        +  Automated -> CI/CD/CD
+    -  Pytest vs unittest
+    -  What to test and how?
+    -  Let's make sure our code is behaving as expected
 -  Functions
 -  Document Your Functions
 -  Test Your Functions
@@ -53,5 +59,13 @@
     +  "Standard" tests with pytest
 
 ## Discussion of Deployment & Dependency Management and Development Environment
+*  Dependency Management
+    -  Remember having to create a virtual environment? And having to install that stuff?
+    -  `requirements.txt`
+    -  This area is changing
+        +  Pipenv vs venv vs venvwrapper
+*  Deployment
+    -  What does it mean?
+
 
 ## Q&A 
