@@ -1,16 +1,17 @@
 # PyCon Africa 2019 Tutorial Outline
-## Setup/Prereqs
+## Setup/Prerequisites
 -  Python 3.5 or later should work, but 3.6 will give you f-strings
 -  Git & do basic Git config (find chapter)
 -  A Github account
 -  Create a virtual environment; I'll be using `virtualenvwrapper`, but use what you're comfortable with
 -  `pip install` IN your virtual environment: 
-    -  OpenPyXL
-    -  pytest
-    -  jupyter (optional, but very useful for beginners who don't have a text editor they like)
+    -  `openpyxl`
+    -  `pytest`
+    -  `jupyter` (optional, but very useful for beginners who don't have a text editor they like)
 -  Able to navigate *your* computer from the command line:
     +  navigate & create directories
     +  Git will be done from the command line
+-  A text editor of your choice. If you don't have one, you can use the Jupyter Notebook
 
 ## Sequence
 -  Introduction
@@ -28,6 +29,7 @@
     -  String, List, Tuple, Dict (collections)
     -  Basic functions (Hello {name} function)
     -  imports; `import OpenPyXL`
+        -  `simple_demo.py`
 *  Git
     -  `git init`
     -  `git status`
