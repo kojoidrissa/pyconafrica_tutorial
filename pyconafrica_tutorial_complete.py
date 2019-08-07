@@ -16,11 +16,11 @@ employee_ids = {
     if row[0].value != 'employee_num'
 }
 
-# Step 3 Creating a set with a for loop
-# employee_ids = set()
-# for row in demo_worksheet.rows: # returns a generator object
-#     if row[0].value != 'employee_num':
-#         employee_ids.add(row[0].value) # pulling data from a cell
+Step 3 Creating a set with a for loop
+employee_ids = set()
+for row in demo_worksheet.rows: # returns a generator object
+    if row[0].value != 'employee_num':
+        employee_ids.add(row[0].value) # pulling data from a cell
 
 # Step 4
 # Create a dictionary of each employee and their info for the month
