@@ -10,9 +10,6 @@ def get_workbook_data(workbook):
 
     str -> OpenPyXL Workbook Object
 
-    >>> timesheet_data = get_workbook_data('pycon_africa_tutorial.xlsx')
-    >>> isinstance(timesheet_data, Workbook)
-    True
 
     """
     wb = openpyxl.load_workbook(workbook, data_only= True)
