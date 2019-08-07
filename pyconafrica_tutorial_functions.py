@@ -115,4 +115,4 @@ def main(workbook_file):
 
 if __name__ == '__main__':
     # We could use argparse here, but we're not
-    main('pycon_africa_tutorial.xlsx')
+    main('pyconafrica_tutorial.xlsx')

@@ -4,7 +4,7 @@ from openpyxl import Workbook
 
 # get workbook object; the data_only option captures the current value of any formulae
 # Your file should be in the same directory as this code, OR you need to provide the FULL path to that file, not just it's name
-wb = openpyxl.load_workbook('pycon_africa_tutorial.xlsx', data_only= True)
+wb = openpyxl.load_workbook('pyconafrica_tutorial.xlsx', data_only= True)
 
 # WB -> WS -> Cell
 demo_worksheet = wb.get_sheet_by_name("clean_data")
@@ -86,8 +86,8 @@ for row in output_data:
         output_sheet.cell(row = rowIn+1, column = col+1).value = output_data[rowIn][col]
 
 # You don't have an actual spreadsheet until you do this
-output_book.save (filename = "pyconAfrica_tutorial_done.xlsx")
-print("File created: pyconAfrica_tutorial_done.xlsx ")
+output_book.save (filename = "pyconafrica_tutorial_done.xlsx")
+print("File created: pyconafrica_tutorial_done.xlsx ")
 
 # Step 7
 with open("aggregate_time.json", 'w') as f:
