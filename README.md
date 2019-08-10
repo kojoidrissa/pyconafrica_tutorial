@@ -1,4 +1,6 @@
+# *A Junior Developer's Software Engineering Tutorial*
 # PyCon Africa 2019 Tutorial Outline
+
 ## Setup/Prerequisites
 -  Python 3.5 or later should work, but 3.6 will give you f-strings
 -  Git & do basic Git config (find chapter)
